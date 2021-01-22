@@ -317,7 +317,7 @@ namespace Oxide.Plugins
             }
             else Print("votingUnsuccessful");
             isWaiting = true;
-            timer.In(600, () => isWaiting = false);
+            timer.In(900, () => isWaiting = false);
             CheckTime();
         }
         
